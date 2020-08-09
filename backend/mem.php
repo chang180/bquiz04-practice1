@@ -15,7 +15,7 @@
             <td><?= $m['acc']; ?></td>
             <td><?= $m['date']; ?></td>
             <td>
-                <a href="?do=edit_mem&id=<?= $m['id']; ?>"><button>修改</button><a href="api/delmem.php?id=<?= $m['id']; ?>"><button>刪除</button>
+                <a href="?do=edit_mem&id=<?= $m['id']; ?>"><button>修改</button></a><a href="api/delmem.php?id=<?= $m['id']; ?>"><button>刪除</button></a>
 
             </td>
         </tr>

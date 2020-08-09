@@ -11,7 +11,7 @@ foreach ($admins as $a){
     ?>
     <tr>
         <td><?=$a['acc'];?></td>
-        <td><?=$a['acc'];?></td>
+        <td><?=$a['pw'];?></td>
         <td>
 <?php
 if($a['acc']=='admin') echo "此帳號為最高管理權限";
