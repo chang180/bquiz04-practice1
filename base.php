@@ -5,7 +5,7 @@ date_default_timezone_set("Asia/Taipei");
 
 class DB
 {
-    private $dsn = "mysql:host=localhost;dbname=db03;charset=utf8";
+    private $dsn = "mysql:host=localhost;dbname=db04;charset=utf8";
     private $root = "root";
     private $password = "";
     public function __construct($table)
@@ -79,4 +79,5 @@ $Member = new DB('member');
 $Admin = new DB('admin');
 $Type = new DB('type');
 $Bottom = new DB('bottom');
+$bottom=$Bottom->find(1);
 
